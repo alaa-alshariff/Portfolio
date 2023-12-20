@@ -1,7 +1,8 @@
 import React from "react";
-import HeroImg from "../assets/HeroImg.jpg";
-import Born from "../assets/born.png";
-import cartoon from "../assets/experience.png";
+import { Born, cartoon } from "../assets/index.js";
+
+// import Born from "../assets/born.png";
+// import cartoon from "../assets/experience.png";
 const Experience = () => {
   return (
     <section id="experience" className="experience-section">
