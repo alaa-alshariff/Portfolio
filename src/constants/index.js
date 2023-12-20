@@ -185,8 +185,8 @@ export const projects = [
             },
         ],
         image: Bidding,
-        source_code_link: "https://github.com/",
-        preview: "https://www.borninteractive.com/Home",
+        source_code_link: "https://github.com/alaa-alshariff/Auction-Website",
+        preview: "https://auction-frontend-nine.vercel.app/",
     },
     {
         name: "Threads Clone",
@@ -207,8 +207,8 @@ export const projects = [
             },
         ],
         image: threads,
-        source_code_link: "https://github.com/",
-        preview: "https://www.borninteractive.com/Home",
+        source_code_link: "https://github.com/alaa-alshariff/threads.app",
+        preview: "https://threads-app-alaa-alsharif.vercel.app/",
     },
     {
         name: "Birthday Card",
@@ -229,8 +229,8 @@ export const projects = [
             },
         ],
         image: birthday,
-        source_code_link: "https://github.com/",
-        preview: "https://www.borninteractive.com/Home",
+        source_code_link: "https://github.com/alaa-alshariff/Birthday-card",
+        preview: "https://birthday-card-git-main-alaa-alshariffs-projects.vercel.app/",
     },
 ];
 
