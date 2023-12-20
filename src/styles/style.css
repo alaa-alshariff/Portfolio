@@ -1325,7 +1325,7 @@
   width: calc(100% + 40px);
 }
 
-@media (max-width: 360px) {
+@media (max-width: 420px) {
   .vertical-timeline::before {
     display: none;
   }
