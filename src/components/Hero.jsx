@@ -1,7 +1,7 @@
 import React from "react";
 import HeroAnimation from "./HeroAnimation";
 import Typewriter from "typewriter-effect";
-import HeroImg from "../assets/HeroImg.jpg";
+import { HeroImg } from "../assets/index.js";
 
 const Hero = () => {
   return (
