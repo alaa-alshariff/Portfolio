@@ -1,4 +1,4 @@
-import Introduction from './Introduction';
+import Introduction from './introduction';
 import Navbar from './Navbar';
 import Hero from './Hero';
 import Skills from './Skills';
