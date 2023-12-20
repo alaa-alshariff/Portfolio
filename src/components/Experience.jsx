@@ -35,7 +35,8 @@ const Experience = () => {
             </li>
           </ul>
 
-          <span>February 2022 - September 2023</span>
+          <span>August 2021 - September 2023</span>
+      
         </div>
 
         <div className="logo">
