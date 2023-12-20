@@ -1,6 +1,6 @@
 import React from "react";
 import { projects } from "../constants";
-import {github} from "../assets/index.js";
+import {github} from "./assets/index.js";
 import { Tilt } from "react-tilt";
 
 const EyeIcon = () => {

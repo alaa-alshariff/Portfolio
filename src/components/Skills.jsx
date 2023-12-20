@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import lottie from "lottie-web";
-import animationData from "../assets/laptop.json";
+import animationData from "./assets/laptop.json";
 import { skills } from "../constants";
 const Skills = () => {
   const container = useRef(null);

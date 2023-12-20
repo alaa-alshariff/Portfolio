@@ -1,6 +1,6 @@
 // ChatUI.js
 import React, { useState, useEffect } from "react";
-import floating from "../assets/floating.png";
+import floating from "./assets/floating.png";
 
 const Introduction = () => {
   const [messages, setMessages] = useState([

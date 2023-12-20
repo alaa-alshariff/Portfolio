@@ -1,9 +1,9 @@
 
-import Bidding from "../assets/Bidding.png"
-import threads from "../assets/threads.png"
-import birthday from "../assets/Birthday.png"
-import lau from "../assets/lau.png"
-import concordia from "../assets/concordia.png"
+import Bidding from "../components/assets/Bidding.png"
+import threads from "../components/assets/threads.png"
+import birthday from "../components/assets/Birthday.png"
+import lau from "../components/assets/lau.png"
+import concordia from "../components/assets/concordia.png"
 
 
 

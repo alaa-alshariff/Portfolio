@@ -1,5 +1,5 @@
 import React from "react";
-import { Born, cartoon } from "../assets/index.js";
+import { Born, cartoon } from "./assets/index.js";
 
 // import Born from "../assets/born.png";
 // import cartoon from "../assets/experience.png";
