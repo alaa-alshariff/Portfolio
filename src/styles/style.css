@@ -332,7 +332,6 @@
   cursor: pointer;
 }
 .mobilenavigation .mobile-navigation.open {
-  left: 0;
   animation: slideIn 0.5s ease-in-out;
 }
 .mobilenavigation .mobile-navigation.slide-out {
