@@ -1322,7 +1322,7 @@
 }
 .Intro-btn:hover::after {
   z-index: -1;
-  width: calc(100% + 40px);
+  width: calc(100% + 42px);
 }
 
 @media (max-width: 420px) {
