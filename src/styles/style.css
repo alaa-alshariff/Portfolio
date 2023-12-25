@@ -1287,6 +1287,7 @@
   transition: all 0.3s;
   font-weight: 600;
   color: #ffffff;
+  border: 1px solid white;
 }
 .Intro-btn::after {
   overflow: hidden;
