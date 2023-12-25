@@ -41,7 +41,7 @@ const Education = () => {
     <section id="education" className="education-section">
       <div className="intro">
         <span>WHAT I HAVE LEARNED SO FAR</span>
-        <h2>EDUCATION</h2>
+        <h2>Education</h2>
       </div>
 
       <div className="timeline">
