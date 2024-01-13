@@ -1334,7 +1334,7 @@
   transition: all 0.3s;
   font-weight: 600;
   color: #ffffff;
-  border: 1px solid white;
+  border: 1px solid #854ce6;
   &::after {
     overflow: hidden;
     content: "";
@@ -1374,6 +1374,9 @@
 }
 
 @media (max-width: 420px) {
+  .Intro-btn{
+box-sizing: border-box;
+  }
   .vertical-timeline::before {
     display: none;
   }
@@ -1385,5 +1388,11 @@
   }
   .vertical-timeline-element:last-child {
     padding-bottom: 60px;
+  }
+  .vertical-timeline-element-content-arrow {
+    display: none;
+  }
+  .mobilenavigation .burger-menu.open{
+color: white;
   }
 }
