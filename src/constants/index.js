@@ -209,7 +209,7 @@ export const projects = [
     {
         name: "3D Shirt Store",
         description:
-            "This platform celebrates special moments by allowing users to create personalized birthday cards. With a dynamic countdown timer, users can anticipate and prepare for the big day. The site offers a user-friendly interface to craft heartfelt messages, ",
+            "Create your unique and exclusive shirt with our brand-new 3D customization tool. Unleash your imagination and define your own style. You can Recolor your own shirt, and add decals and designs from your own Images",
         tags: [
             {
                 name: "JavaScript",
