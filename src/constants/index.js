@@ -4,6 +4,7 @@ import threads from "../components/assets/threads.png"
 import birthday from "../components/assets/Birthday.png"
 import lau from "../components/assets/lau.png"
 import concordia from "../components/assets/concordia.png"
+import shirt from "../components/assets/shirt.png"
 
 
 
@@ -206,7 +207,7 @@ export const projects = [
         preview: "https://threads-app-alaa-alsharif.vercel.app/",
     },
     {
-        name: "Birthday Card",
+        name: "3D Shirt Store",
         description:
             "This platform celebrates special moments by allowing users to create personalized birthday cards. With a dynamic countdown timer, users can anticipate and prepare for the big day. The site offers a user-friendly interface to craft heartfelt messages, ",
         tags: [
@@ -215,18 +216,40 @@ export const projects = [
                 color: "blue-text-gradient",
             },
             {
-                name: "Html",
+                name: "Vite",
                 color: "green-text-gradient",
             },
             {
-                name: "Scss",
+                name: "React",
                 color: "pink-text-gradient",
             },
         ],
-        image: birthday,
-        source_code_link: "https://github.com/alaa-alshariff/Birthday-card",
-        preview: "https://birthday-card-git-main-alaa-alshariffs-projects.vercel.app/",
+        image: shirt,
+        source_code_link: "https://github.com/alaa-alshariff/3D-shirt",
+        preview: "https://3-d-shirt-gules.vercel.app//",
     },
+    // {
+    //     name: "Birthday Card",
+    //     description:
+    //         "This platform celebrates special moments by allowing users to create personalized birthday cards. With a dynamic countdown timer, users can anticipate and prepare for the big day. The site offers a user-friendly interface to craft heartfelt messages, ",
+    //     tags: [
+    //         {
+    //             name: "JavaScript",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "Html",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "Scss",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: birthday,
+    //     source_code_link: "https://github.com/alaa-alshariff/Birthday-card",
+    //     preview: "https://birthday-card-git-main-alaa-alshariffs-projects.vercel.app/",
+    // },
 ];
 
 
