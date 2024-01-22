@@ -5,6 +5,7 @@ import birthday from "../components/assets/Birthday.png"
 import lau from "../components/assets/lau.png"
 import concordia from "../components/assets/concordia.png"
 import shirt from "../components/assets/shirt.png"
+import todo from "../components/assets/todo.png"
 
 
 
@@ -227,6 +228,28 @@ export const projects = [
         image: shirt,
         source_code_link: "https://github.com/alaa-alshariff/3D-shirt",
         preview: "https://3-d-shirt-gules.vercel.app//",
+    },
+    {
+        name: "To-Do App",
+        description:
+            "this app allows you to effortlessly organize your daily tasks. add new tasks, edit existing ones, and remove completed items with just a few click. What sets this ToDo app apart is its integration with a local database, for easy access and retrieval.  ",
+        tags: [
+            {
+                name: "TypeScript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "NextJs",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: todo,
+        source_code_link: "https://github.com/alaa-alshariff/to-do-list",
+        preview: "https://github.com/alaa-alshariff/to-do-list",
     },
     {
         name: "Birthday Card",
