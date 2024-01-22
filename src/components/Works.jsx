@@ -1,8 +1,14 @@
 import React from "react";
 import { projects } from "../constants";
-import {github} from "./assets/index.js";
+import { github } from "./assets/index.js";
 import { Tilt } from "react-tilt";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css/pagination";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/effect-cards";
 
+import { Navigation, Pagination, EffectCards } from "swiper/modules";
 const EyeIcon = () => {
   return <i className="material-icons">visibility</i>;
 };
@@ -70,10 +76,40 @@ const Works = () => {
         <span>MY WORK</span>
         <h2>Projects</h2>
       </div>
-      <div className="projectcards">
-        {projects.map((projects, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...projects} />
-        ))}
+      <div className="projectslider">
+        <Swiper
+          modules={[Navigation, Pagination, EffectCards]}
+          spaceBetween={30}
+          navigation={true}
+          pagination={{ clickable: true }}
+          breakpoints={{
+            499: {
+              // grabCursor: true,
+              navigation: false,
+
+              slidesPerView: 1,
+            },
+            700: {
+              // grabCursor: true,
+              navigation: false,
+
+              slidesPerView: 2,
+            },
+            768: {
+              slidesPerView: 3,
+            },
+          }}
+        >
+          {projects.map((projects, index) => (
+            <SwiperSlide className="projectcards">
+              <ProjectCard
+                key={`project-${index}`}
+                index={index}
+                {...projects}
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </section>
   );

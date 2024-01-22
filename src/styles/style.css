@@ -828,7 +828,7 @@
 }
 
 .projects-section {
-  padding: 80px 30px;
+  padding: 80px 30px 0px;
 }
 @media (max-width: 960px) {
   .projects-section {
@@ -862,11 +862,9 @@
   font-size: 30px;
 }
 .projects-section .projectcards {
-  margin-top: 30px;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
 }
 .projects-section .projectcards .card {
   background: rgba(255, 255, 255, 0.121);
@@ -993,7 +991,7 @@
 }
 
 .education-section {
-  padding: 80px 30px;
+  padding: 0px 30px 80px;
 }
 @media (max-width: 960px) {
   .education-section {
@@ -1347,6 +1345,100 @@
   .mobilenavigation .burger-menu.open {
     color: white;
   }
+}
+.projectslider {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  max-width: 1150px;
+}
+.projectslider .swiper {
+  padding: 70px 20px 50px;
+  transform: translateY(-70px);
+}
+@media (max-width: 500px) {
+  .projectslider .swiper {
+    padding: 0px 0px 50px;
+    transform: translateY(0px);
+  }
+}
+.projectslider .swiper-button-next {
+  left: auto;
+  top: 30px;
+  right: 25px !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #804dee;
+  border: 2px solid #804dee;
+  transition: ease-in-out 0.3s;
+}
+.projectslider .swiper-button-next:after {
+  color: #ffffff;
+  transition: ease-in-out 0.3s;
+  font-weight: bolder;
+  font-size: 18px;
+  position: absolute;
+}
+@media (max-width: 500px) {
+  .projectslider .swiper-button-next {
+    display: none;
+  }
+}
+.projectslider .swiper-button-next:hover {
+  background-color: #ffffff;
+  border: 1px solid #804dee;
+}
+.projectslider .swiper-button-next:hover:after {
+  color: #804dee;
+  font-weight: bolder;
+  font-size: 18px;
+  position: absolute;
+}
+.projectslider .swiper-button-prev {
+  left: auto;
+  top: 30px;
+  right: 90px !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #804dee;
+  border: 2px solid #804dee;
+  transition: ease-in-out 0.3s;
+}
+.projectslider .swiper-button-prev:after {
+  color: #ffffff;
+  transition: ease-in-out 0.3s;
+  font-weight: bolder;
+  font-size: 18px;
+  position: absolute;
+}
+@media (max-width: 500px) {
+  .projectslider .swiper-button-prev {
+    display: none;
+  }
+}
+.projectslider .swiper-button-prev:hover {
+  background-color: #ffffff;
+  border: 1px solid #804dee;
+}
+.projectslider .swiper-button-prev:hover:after {
+  color: #804dee;
+  font-weight: bolder;
+  font-size: 18px;
+  position: absolute;
+}
+.projectslider .swiper-pagination {
+  position: absolute;
+  bottom: -10px;
+}
+.projectslider .swiper-pagination .swiper-pagination-bullet {
+  width: 10px !important;
+  height: 10px !important;
+}
+.projectslider .swiper-pagination .swiper-pagination-bullet-active {
+  background: #804dee;
 }
 
 /*# sourceMappingURL=style.css.map */

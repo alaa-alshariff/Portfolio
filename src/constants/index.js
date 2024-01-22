@@ -228,28 +228,28 @@ export const projects = [
         source_code_link: "https://github.com/alaa-alshariff/3D-shirt",
         preview: "https://3-d-shirt-gules.vercel.app//",
     },
-    // {
-    //     name: "Birthday Card",
-    //     description:
-    //         "This platform celebrates special moments by allowing users to create personalized birthday cards. With a dynamic countdown timer, users can anticipate and prepare for the big day. The site offers a user-friendly interface to craft heartfelt messages, ",
-    //     tags: [
-    //         {
-    //             name: "JavaScript",
-    //             color: "blue-text-gradient",
-    //         },
-    //         {
-    //             name: "Html",
-    //             color: "green-text-gradient",
-    //         },
-    //         {
-    //             name: "Scss",
-    //             color: "pink-text-gradient",
-    //         },
-    //     ],
-    //     image: birthday,
-    //     source_code_link: "https://github.com/alaa-alshariff/Birthday-card",
-    //     preview: "https://birthday-card-git-main-alaa-alshariffs-projects.vercel.app/",
-    // },
+    {
+        name: "Birthday Card",
+        description:
+            "This platform celebrates special moments by allowing users to create personalized birthday cards. With a dynamic countdown timer, users can anticipate and prepare for the big day. The site offers a user-friendly interface to craft heartfelt messages, ",
+        tags: [
+            {
+                name: "JavaScript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Html",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Scss",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: birthday,
+        source_code_link: "https://github.com/alaa-alshariff/Birthday-card",
+        preview: "https://birthday-card-git-main-alaa-alshariffs-projects.vercel.app/",
+    },
 ];
 
 
