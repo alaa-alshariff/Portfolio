@@ -6,7 +6,7 @@ import lau from "../components/assets/lau.png"
 import concordia from "../components/assets/concordia.png"
 import shirt from "../components/assets/shirt.png"
 import todo from "../components/assets/todo.png"
-
+import security from "../components/assets/cyber-attack.gif"
 
 
 export const navLinks = [
@@ -208,6 +208,28 @@ export const projects = [
         preview: "https://threads-app-alaa-alsharif.vercel.app/",
     },
     {
+        name: "RSA Cryptography",
+        description:
+            "RSA is a widely used asymmetric cryptographic algorithm for secure data transmission. In RSA, each participant generates a pair of keys: a public key and a private key. The public key is shared openly, while the private key is kept secret.",
+        tags: [
+            {
+                name: "C++",
+                color: "blue-text-gradient",
+            },
+            // {
+            //     name: "Html",
+            //     color: "green-text-gradient",
+            // },
+            // {
+            //     name: "Scss",
+            //     color: "pink-text-gradient",
+            // },
+        ],
+        image: security,
+        source_code_link: "https://github.com/alaa-alshariff/RSA-Cryptography",
+        preview: "https://github.com/alaa-alshariff/RSA-Cryptography",
+    },
+    {
         name: "3D Shirt Store",
         description:
             "Create your unique and exclusive shirt with our brand-new 3D customization tool. Unleash your imagination and define your own style. You can Recolor your own shirt, and add decals and designs from your own Images",
@@ -229,6 +251,7 @@ export const projects = [
         source_code_link: "https://github.com/alaa-alshariff/3D-shirt",
         preview: "https://3-d-shirt-gules.vercel.app//",
     },
+
     {
         name: "To-Do App",
         description:
@@ -251,6 +274,7 @@ export const projects = [
         source_code_link: "https://github.com/alaa-alshariff/to-do-list",
         preview: "https://github.com/alaa-alshariff/to-do-list",
     },
+
     {
         name: "Birthday Card",
         description:
