@@ -21,9 +21,7 @@ const Navbar = () => {
       mobileNav.classList.add("open");
     }
   };
-  const closeMenu = () => {
-    setIsOpen(false);
-  };
+
   return (
     <>
       <div className="desktop-navigation">
@@ -72,7 +70,7 @@ const Navbar = () => {
             <ul className="mobile-items">
               {navLinks.map((link) => (
                 <li>
-                  <a onClick={closeMenu} href={`#${link.id}`}>
+                  <a onClick={toggleMenu} href={`#${link.id}`}>
                     {link.title}
                   </a>
                 </li>

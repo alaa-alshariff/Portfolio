@@ -348,7 +348,7 @@
       animation: slideIn 0.5s ease-in-out;
     }
     &.slide-out {
-      animation: slideOut 0.5s ease-in-out forwards; /* Make sure the animation maintains the final state */
+      animation: slideOut 0.5s ease-in-out forwards;
     }
   }
 
@@ -394,7 +394,7 @@
   }
   &.slide-out {
     .mobile-navigation {
-      animation: slideOut 0.5s ease-in-out forwards; /* Make sure the animation maintains the final state */
+      animation: slideOut 0.5s ease-in-out forwards;
     }
   }
 }
