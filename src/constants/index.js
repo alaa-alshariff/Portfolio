@@ -181,7 +181,7 @@ export const skills = [
 
 export const projects = [
     {
-        name: "Kafalat - Website",
+        name: "Kafalat B5 Fund",
         description:
             "At my previous employment as a web developer, I contributed to the development of a responsive website aimed to grant resources and donations for people impacted by the Port of Beirut explosion of August 4, 2020.",
         tags: [
@@ -203,7 +203,7 @@ export const projects = [
         preview: "https://www.kafalatb5.com/",
     },
     {
-        name: "TheNet - Website",
+        name: "The Net Global",
         description:
             "At my previous employment as a web developer, I contributed to the development of a responsive website that provides regional and global distribution reach, covering the entire supply chain across various sectors and industries.",
         tags: [
@@ -225,7 +225,7 @@ export const projects = [
         preview: "https://www.thenetglobal.group/english/home",
     },
     {
-        name: "KJTech - Website",
+        name: "KJTech Website",
         description:
             "At my previous employment as a web developer, I contributed to the development of a responsive website for KJTech which is an end to end Technology Solutions that specialize in designing fit for purpose smart workplace technologies.",
         tags: [
