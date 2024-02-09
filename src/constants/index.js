@@ -244,7 +244,7 @@ export const projects = [
         ],
         image: kjtech,
         source_code_link: "https://github.com/alaa-alshariff/",
-        preview: "https://www.kafalatb5.com/",
+        preview: "https://www.kjtech.ai/",
     },
 
 
