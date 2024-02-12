@@ -13,7 +13,7 @@ const Experience = () => {
 
       <div className="experiencecard">
         <div className="info">
-          <h1>Front End Developer</h1>
+          <h1>Web Developer</h1>
           <h2>Born Interactive</h2>
           <ul>
             <li>
