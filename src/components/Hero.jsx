@@ -41,7 +41,7 @@ const Hero = () => {
               growth mindset, I am ready to make a meaningful contribution and
               achieve great things.
             </div>
-            <a href="https://1drv.ms/b/s!AgFty9D6yzPBgQ7CW6UP9xoqduIU?e=cs9YQB" target="_blank" className="resumebtn">
+            <a href="https://1drv.ms/b/s!AgFty9D6yzPBgSUnXpxSmQITWgOb?e=T4iPIL" target="_blank" className="resumebtn">
               Resume
             </a>
           </div>
